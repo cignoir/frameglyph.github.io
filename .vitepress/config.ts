@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Frameglyph',
   description: 'Video review and annotation tool',
   appearance: 'dark',
+  base: '/frameglyph.github.io/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
