@@ -1,5 +1,7 @@
 # Annotations
 
+![Annotations with Live Ink recording mode](/images/screenshots/annotations.png)
+
 Frameglyph provides drawing and text tools to annotate directly on video frames.
 
 ## Drawing Tools

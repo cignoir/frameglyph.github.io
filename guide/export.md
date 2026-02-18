@@ -6,6 +6,8 @@ Frameglyph uses FFmpeg to export videos with burned-in annotations.
 
 FFmpeg must be configured before exporting. See [Installation](./installation#ffmpeg-setup).
 
+![Export settings dialog](/images/screenshots/export-dialog.png)
+
 ## Export Formats
 
 | Format | Description |

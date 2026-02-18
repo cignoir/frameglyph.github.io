@@ -1,5 +1,7 @@
 # アノテーション
 
+![Live Ink録画モードでのアノテーション](/images/screenshots/annotations.png)
+
 Frameglyphは、動画フレームに直接描画やテキストを追加するアノテーションツールを提供します。
 
 ## 描画ツール

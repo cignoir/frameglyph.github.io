@@ -1,0 +1,232 @@
+/* ============================================
+   Frameglyph — Custom VitePress Theme
+   Cyan → Purple gradient brand (matches logo)
+   ============================================ */
+
+/* --- Brand color overrides (dark mode) --- */
+:root {
+  --vp-c-brand-1: #a78bfa;
+  --vp-c-brand-2: #8b5cf6;
+  --vp-c-brand-3: #7c3aed;
+  --vp-c-brand-soft: rgba(167, 139, 250, 0.14);
+}
+
+.dark {
+  --vp-c-bg: #0f0f1a;
+  --vp-c-bg-soft: #161625;
+  --vp-c-bg-mute: #1e1e32;
+  --vp-c-bg-alt: #131322;
+
+  --vp-c-brand-1: #a78bfa;
+  --vp-c-brand-2: #8b5cf6;
+  --vp-c-brand-3: #7c3aed;
+  --vp-c-brand-soft: rgba(167, 139, 250, 0.14);
+
+  --vp-c-default-soft: rgba(255, 255, 255, 0.04);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #38bdf8, #a78bfa, #c084fc);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(56, 189, 248, 0.3), rgba(192, 132, 252, 0.3));
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+/* --- Hero title gradient text --- */
+.VPHero .name .clip {
+  background: linear-gradient(135deg, #38bdf8, #a78bfa, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* --- Hero image styling --- */
+.VPHero .image-container .image-bg {
+  opacity: 0.8;
+}
+
+.VPHero .VPImage {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(167, 139, 250, 0.15);
+  max-width: 520px;
+}
+
+/* --- Feature cards --- */
+.VPFeature {
+  border: 1px solid transparent !important;
+  background-clip: padding-box !important;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dark .VPFeature {
+  background-color: var(--vp-c-bg-soft) !important;
+  border-color: rgba(167, 139, 250, 0.12) !important;
+}
+
+.VPFeature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(167, 139, 250, 0.15);
+}
+
+.dark .VPFeature:hover {
+  border-color: rgba(167, 139, 250, 0.3) !important;
+}
+
+/* --- Action buttons --- */
+.VPButton.brand {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa) !important;
+  border-color: transparent !important;
+}
+
+.VPButton.brand:hover {
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6) !important;
+}
+
+/* --- Screenshots in guide pages --- */
+.vp-doc img {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vp-doc img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(167, 139, 250, 0.2);
+}
+
+/* --- Custom container colors --- */
+.dark .custom-block.tip {
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+.dark .custom-block.warning {
+  border-color: rgba(250, 204, 21, 0.4);
+}
+
+/* --- Navbar logo sizing --- */
+.VPNavBarTitle .logo {
+  height: 28px;
+  margin-right: 8px;
+}
+
+/* --- Sidebar active link gradient --- */
+.dark .VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--vp-c-brand-1);
+}
+
+/* --- Scrollbar --- */
+.dark ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--vp-c-bg);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(167, 139, 250, 0.2);
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 139, 250, 0.4);
+}
+
+/* --- Feature showcase (vertical sections) --- */
+.feature-showcase {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  padding: 48px 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.feature-section:last-child {
+  border-bottom: none;
+}
+
+/* Alternate layout: even sections swap order */
+.feature-section:nth-child(even) .feature-text {
+  order: 2;
+}
+
+.feature-section:nth-child(even) .feature-media {
+  order: 1;
+}
+
+.feature-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #38bdf8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.feature-text p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+
+/* Media container */
+.feature-media {
+  position: relative;
+}
+
+.feature-media img,
+.feature-media video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(167, 139, 250, 0.12);
+  background: var(--vp-c-bg-soft);
+  display: block;
+}
+
+/* Override doc img hover effects inside showcase */
+.feature-showcase .feature-media img {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-showcase .feature-media img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(167, 139, 250, 0.25);
+}
+
+/* Placeholder for sections without screenshots */
+.feature-placeholder {
+  min-height: 220px;
+  border-radius: 12px;
+  background: var(--vp-c-bg-mute);
+  border: 1px dashed var(--vp-c-divider);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--vp-c-text-3);
+  font-size: 0.95rem;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .feature-section {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 32px 0;
+  }
+
+  .feature-section:nth-child(even) .feature-text,
+  .feature-section:nth-child(even) .feature-media {
+    order: unset;
+  }
+
+  .feature-showcase {
+    padding: 32px 16px 48px;
+  }
+}

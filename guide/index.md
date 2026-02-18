@@ -1,5 +1,7 @@
 # Introduction
 
+![Frameglyph overview](/images/screenshots/hero.png)
+
 Frameglyph is a video review and annotation application for Windows. It provides frame-accurate playback, drawing tools, and export capabilities — designed for animators, game developers, and video reviewers.
 
 ## Key Features
@@ -8,6 +10,7 @@ Frameglyph is a video review and annotation application for Windows. It provides
 - **Annotations** — Freehand drawing (Live Ink), shapes, text overlays
 - **Timeline** — Bookmarks, range selection, keyframe management
 - **Export** — MP4, WebM, GIF, PNG/JPEG/WebP sequences with burned-in annotations
+- **Multi-Video Comparison** — View up to 9 videos in configurable layouts (1x1, 2x1, 2x2, 3x3)
 - **Screen Capture** — Built-in recording and direct import
 - **Project Management** — Save and load your review sessions
 

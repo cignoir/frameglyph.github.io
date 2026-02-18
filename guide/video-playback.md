@@ -1,5 +1,7 @@
 # Video Playback
 
+![Video playback screen](/images/screenshots/playback.png)
+
 Frameglyph supports importing and reviewing videos with frame-level precision.
 
 ## Importing Videos
@@ -29,6 +31,19 @@ Supported formats: MP4, WebM, and other formats supported by the browser's video
 
 ## Multi-Video Layout
 
-Frameglyph supports up to 4 videos simultaneously in configurable layouts for side-by-side comparison.
+![Multi-video comparison in 2x1 layout](/images/screenshots/multi-layout.png)
+
+Frameglyph supports viewing multiple videos simultaneously for side-by-side comparison. Use the floating **Layout Panel** to switch between layouts.
+
+| Layout | Videos | Description |
+|---|---|---|
+| **1x1** | 1 | Single video (default) |
+| **2x1** | 2 | Two videos side by side |
+| **2x2** | 4 | Four videos in a 2x2 grid |
+| **3x3** | 9 | Nine videos in a 3x3 grid |
+
+- Enable the layout panel from **View > Layout Panel**.
+- Drag and drop videos into each slot, or click the empty area to import.
+- The layout switches automatically based on the number of loaded videos.
 
 See [Keyboard Shortcuts](./shortcuts) for the full list of playback controls.

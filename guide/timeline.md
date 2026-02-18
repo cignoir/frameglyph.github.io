@@ -1,5 +1,7 @@
 # Timeline
 
+![Timeline with bookmarks](/images/screenshots/timeline.png)
+
 The timeline provides an overview of the video and tools for navigation, bookmarking, and range selection.
 
 ## Bookmarks

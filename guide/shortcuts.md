@@ -1,5 +1,7 @@
 # Keyboard Shortcuts
 
+![Shortcuts settings tab](/images/screenshots/shortcuts-dialog.png)
+
 All shortcuts can be customized in **Preferences > Shortcuts**.
 
 ## Playback

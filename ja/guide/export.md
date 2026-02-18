@@ -6,6 +6,8 @@ FrameglyphはFFmpegを使用して、アノテーションを焼き付けた動�
 
 エクスポートにはFFmpegの設定が必要です。[インストール](./installation#ffmpegのセットアップ)を参照してください。
 
+![エクスポート設定ダイアログ](/images/screenshots/export-dialog.png)
+
 ## エクスポートフォーマット
 
 | フォーマット | 説明 |

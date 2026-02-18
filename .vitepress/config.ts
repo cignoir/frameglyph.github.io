@@ -3,9 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Frameglyph',
   description: 'Video review and annotation tool',
+  appearance: 'dark',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['meta', { property: 'og:image', content: '/images/screenshots/hero.png' }],
   ],
 
   locales: {
@@ -88,12 +90,11 @@ export default defineConfig({
   },
 
   themeConfig: {
+    logo: '/logo.png',
     search: {
       provider: 'local',
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/cignoir/frameglyph.github.io' },
-    ],
+    socialLinks: [],
     footer: {
       message: 'Copyright © 2026 CIGNOIR. All rights reserved.',
     },
