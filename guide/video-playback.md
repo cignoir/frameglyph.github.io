@@ -57,6 +57,7 @@ Frameglyph supports viewing multiple videos simultaneously for side-by-side comp
 |---|---|---|
 | **1x1** | 1 | Single video (default) |
 | **2x1** | 2 | Two videos side by side |
+| **1x2** | 2 | Two videos stacked vertically |
 | **2x2** | 4 | Four videos in a 2x2 grid |
 
 - Enable the panel from **View > Layout Panel**.

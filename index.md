@@ -63,7 +63,7 @@ Keep your review sessions perfectly organized. Drop bookmarks at key moments, de
 
 ### Seamless Multi-Video Comparison
 
-Review iterations side-by-side. Watch **up to 4 videos simultaneously** in fully configurable layouts (1x1, 2x1, 2x2) — ideal for comparing takes or checking animation progress.
+Review iterations side-by-side. Watch **up to 4 videos simultaneously** in fully configurable layouts (1x1, 2x1, 1x2, 2x2) — ideal for comparing takes or checking animation progress.
 
 </div>
 <div class="feature-media">
