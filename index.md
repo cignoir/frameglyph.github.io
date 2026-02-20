@@ -6,7 +6,7 @@ hero:
   text: Video Review & Annotation Tool
   tagline: Frame-accurate playback, drawing annotations, and export — all in one app.
   image:
-    src: /images/screenshots/top.png
+    src: /images/screenshots/hero.png
     alt: Frameglyph multi-video comparison layout
   actions:
     - theme: brand
@@ -35,7 +35,7 @@ Navigate videos with frame-level precision. Variable speed playback and loop con
 <div class="feature-section">
 <div class="feature-text">
 
-### Annotations
+### Annotations & Live Ink
 
 Freehand drawing (Live Ink), shapes, and text overlays directly on video frames. Communicate visual feedback clearly and efficiently.
 
@@ -93,7 +93,20 @@ Built-in screen recording with direct import into your review workflow. Capture 
 
 </div>
 <div class="feature-media">
-  <div class="feature-placeholder">Screen Capture</div>
+  <img src="/images/screenshots/screen-capture.png" alt="Screen capture" />
+</div>
+</div>
+
+<div class="feature-section">
+<div class="feature-text">
+
+### Multi-Language
+
+Available in English, Japanese, Chinese, Korean, Spanish, Portuguese, French, and German.
+
+</div>
+<div class="feature-media">
+  <img src="/images/screenshots/languages.png" alt="Languages" />
 </div>
 </div>
 
