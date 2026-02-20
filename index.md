@@ -6,7 +6,7 @@ hero:
   text: Video Review & Annotation Tool
   tagline: Frame-accurate playback, drawing annotations, and export — all in one app.
   image:
-    src: /images/screenshots/multi-layout.png
+    src: /images/screenshots/top.png
     alt: Frameglyph multi-video comparison layout
   actions:
     - theme: brand
