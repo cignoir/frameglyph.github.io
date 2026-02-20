@@ -20,4 +20,4 @@ Steamを通じて配布される場合、Steamクライアントが[Valveのプ�
 
 ## お問い合わせ
 
-本プライバシーポリシーに関するご質問は、support@frameglyph.com までご連絡ください。
+本プライバシーポリシーに関するご質問は、cignoir.dev@gmail.com までご連絡ください。

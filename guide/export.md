@@ -14,7 +14,8 @@ FFmpeg must be configured before exporting. See [Installation](./installation#ff
 |---|---|
 | **MP4 (H.264)** | Standard video format, widely compatible |
 | **WebM (VP9)** | Open format, good compression |
-| **GIF** | Animated GIF, no audio support |
+| **GIF Animation** | Animated GIF, no audio support |
+| **APNG Animation** | Animated PNG, better quality than GIF, no audio support |
 | **PNG Sequence** | Lossless image sequence |
 | **JPEG Sequence** | Compressed image sequence |
 | **WebP Sequence** | Modern image sequence format |
@@ -22,30 +23,30 @@ FFmpeg must be configured before exporting. See [Installation](./installation#ff
 ## Export Settings
 
 ### Resolution
-Choose from Original, 1080p, 720p, or 480p.
+Choose from **Original**, **1080p**, **720p**, or **480p**.
 
-### Frame Rate
-Select from standard frame rates (24fps, 30fps, 60fps, etc.) or use Auto to match the source video.
+### Frame Rate (FPS)
+Select from standard frame rates (24, 30, 60, etc.) or use **Auto (Match Max Input FPS)** to inherit the source video's frame rate.
 
 ### Quality
-- **Raw**: Highest quality, largest file size
-- **High**: Good quality, balanced file size
-- **Medium**: Standard quality, smaller file size
-- **Low**: Draft quality, smallest file size
+- **Raw**: Highest Quality / Large File Size
+- **High**: Good Quality / Balanced
+- **Medium**: Standard / Smaller Size
+- **Low**: Draft / Smallest Size
 
 ### Range
-- **Full Duration**: Export the entire video
-- **Selection Only**: Export only the In/Out range
+- **Full Duration**: Export the entire clip
+- **Selection Only**: Export only the selected range (In/Out points)
 
 ### Overlays
-Toggle whether annotations and captions are burned into the output.
+Toggle whether **Captions, Annotations & Live Ink** are burned into the output video.
 
-## GIF Tips
+## GIF and APNG Tips
 
 ::: warning
-GIF files can become very large. For best results:
+GIF and APNG files can become very large. For best results:
 - Use low resolution (480p)
 - Use low frame rate (10-15 fps)
 - Keep clips short
-- Audio is not supported in GIF format
+- Audio is not supported in these formats
 :::

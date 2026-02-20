@@ -3,14 +3,14 @@ layout: home
 
 hero:
   name: Frameglyph
-  text: Video Review & Annotation Tool
-  tagline: Frame-accurate playback, drawing annotations, and export — all in one app.
+  text: Precision Video Review & Annotation
+  tagline: Frame-accurate playback, expressive Live Ink annotations, and seamless export. Elevate your review workflow in one powerful workspace.
   image:
     src: /images/screenshots/hero.png
     alt: Frameglyph multi-video comparison layout
   actions:
     - theme: brand
-      text: Get on Steam
+      text: View on Steam
       link: '#'
     - theme: alt
       text: Read the Guide
@@ -22,91 +22,91 @@ hero:
 <div class="feature-section">
 <div class="feature-text">
 
-### Frame-by-Frame Playback
+### Frame-by-Frame Precision
 
-Navigate videos with frame-level precision. Variable speed playback and loop controls let you examine every detail at your own pace.
+Navigate your media with **absolute control**. Variable speed playback and customizable loop ranges allow you to scrutinize every single frame at your own pace.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/playback.png" alt="Frame-by-frame playback" />
+  <img src="/images/screenshots/playback.png" alt="Frame-by-frame precision playback" />
 </div>
 </div>
 
 <div class="feature-section">
 <div class="feature-text">
 
-### Annotations & Live Ink
+### Expressive Annotations
 
-Freehand drawing (Live Ink), shapes, and text overlays directly on video frames. Communicate visual feedback clearly and efficiently.
+Communicate feedback instantly. Draw freehand with **Live Ink**, add shapes, or place text overlays directly onto video frames to highlight exactly what matters.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/annotations.png" alt="Annotations" />
+  <img src="/images/screenshots/annotations.png" alt="Live Ink and expressive annotations" />
 </div>
 </div>
 
 <div class="feature-section">
 <div class="feature-text">
 
-### Timeline & Bookmarks
+### Interactive Timeline
 
-Mark key moments, set loop ranges, and manage keyframes on an interactive timeline. Keep your review sessions organized.
+Keep your review sessions perfectly organized. Drop bookmarks at key moments, define precise loop regions, and manage your keyframes intuitively along an **interactive timeline**.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/timeline.png" alt="Timeline and bookmarks" />
+  <img src="/images/screenshots/timeline.png" alt="Interactive timeline with bookmarks" />
 </div>
 </div>
 
 <div class="feature-section">
 <div class="feature-text">
 
-### Multi-Video Comparison
+### Seamless Multi-Video Comparison
 
-View up to 9 videos simultaneously in configurable layouts (1x1, 2x1, 2x2, 3x3) for side-by-side comparison. Perfect for reviewing iterations and comparing takes.
+Review iterations side-by-side. Watch **up to 4 videos simultaneously** in fully configurable layouts (1x1, 2x1, 2x2) — ideal for comparing takes or checking animation progress.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/multi-layout.png" alt="Multi-video comparison" />
+  <img src="/images/screenshots/multi-layout.png" alt="Multi-video comparison layouts" />
 </div>
 </div>
 
 <div class="feature-section">
 <div class="feature-text">
 
-### Export
+### Effortless Export
 
-Burn annotations into MP4, WebM, GIF, or image sequences using FFmpeg. Share your annotated reviews with anyone.
+Share your feedback anywhere. Render and **burn your annotations** directly into MP4, WebM, GIF, APNG, or image sequences using integrated FFmpeg processing.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/export-dialog.png" alt="Export dialog" />
+  <img src="/images/screenshots/export-dialog.png" alt="Export options for annotated video" />
 </div>
 </div>
 
 <div class="feature-section">
 <div class="feature-text">
 
-### Screen Capture
+### Integrated Screen Capture
 
-Built-in screen recording with direct import into your review workflow. Capture and annotate without switching apps.
+Never break your flow. Use the **built-in screen recorder** to capture your workflow and bring it directly into Frameglyph for immediate review and annotation.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/screen-capture.png" alt="Screen capture" />
+  <img src="/images/screenshots/screen-capture.png" alt="Integrated screen capture tool" />
 </div>
 </div>
 
 <div class="feature-section">
 <div class="feature-text">
 
-### Multi-Language
+### Global Accessibility
 
-Available in English, Japanese, Chinese, Korean, Spanish, Portuguese, French, and German.
+Work in the language you prefer. Frameglyph is **fully localized** and available in English, Japanese, Chinese, Korean, Spanish, Portuguese, French, and German.
 
 </div>
 <div class="feature-media">
-  <img src="/images/screenshots/languages.png" alt="Languages" />
+  <img src="/images/screenshots/languages.png" alt="Multiple language support" />
 </div>
 </div>
 

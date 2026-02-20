@@ -2,32 +2,37 @@
 
 ![Annotations with Live Ink recording mode](/images/screenshots/annotations.png)
 
-Frameglyph provides drawing and text tools to annotate directly on video frames.
+Frameglyph provides a suite of drawing and text tools to annotate directly on your video frames.
 
 ## Drawing Tools
 
+The following tools are available in the **Annotate** workspace (accessible via the Layout panel):
+
 ### Live Ink (Freehand)
-Draw freely on the video canvas. Strokes are recorded with timing data and can be played back in sync with the video.
+Select **Freehand** to draw organically on the video canvas. Strokes are recorded with timing data and play back in sync with the video. 
+- *Tip: If you use a tablet, **Pressure Sensitivity** is supported (enable in **Preferences > Appearance**).*
+- *Live Ink Options: You can configure the video to **Auto-play video on Live Ink start** or **Record Motion Strokes** from the Live Ink settings.*
 
 ### Shapes
-Draw rectangles, circles, arrows, and lines. Useful for highlighting specific areas in the frame.
+Draw precise shapes: **Rectangle**, **Circle**, **Arrow**, and straight **Lines**. Useful for highlighting specific areas or directing attention.
 
-### Text
-Add text labels at any position on the frame. Customize font, size, color, outline, and background.
+### Text & Eraser
+Use **Text** to place labels anywhere on the frame. Use the **Eraser** tool to remove specific strokes or annotations.
 
 ## Working with Annotations
 
 - Annotations are tied to specific frames and time ranges via keyframes.
-- Select, move, resize, or delete annotations using the selection tool.
-- Use **Select All** and **Delete Selected** for batch operations.
+- Use **Select & Edit** to move, resize, or delete annotations.
+- Use **Clear All** to quickly remove everything on the current frame.
+- **Undo** and **Redo** are fully supported for all drawing actions.
 
 ## Style Editing
 
-Each annotation supports customizable styles:
-- **Stroke color and width** for drawings and shapes
-- **Font, size, text color** for text annotations
-- **Outline** with configurable color and width
-- **Background** with color and opacity
+Each annotation supports customizable styles from the toolbar:
+- **Outline Color** and **Width** for drawings and shapes
+- **Font**, **Size**, and **Text Color** for text
+- **Toggle Outline** and **Toggle Fill** options
+- **Background** color and **Opacity**
 
 ## Keyframes
 

@@ -20,4 +20,4 @@ When distributed via Steam, the Steam client may collect usage data according to
 
 ## Contact
 
-If you have questions about this privacy policy, please contact us at support@frameglyph.com.
+If you have questions about this privacy policy, please contact us at cignoir.dev@gmail.com.

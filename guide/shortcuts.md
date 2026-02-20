@@ -18,6 +18,8 @@ All shortcuts can be customized in **Preferences > Shortcuts**.
 | Set Loop In | `I` |
 | Set Loop Out | `O` |
 | Toggle Loop | `Shift + L` |
+| Range Start at Playhead | `[` |
+| Range End at Playhead | `]` |
 
 ## Audio
 
@@ -56,3 +58,9 @@ All shortcuts can be customized in **Preferences > Shortcuts**.
 | Action | Default Shortcut |
 |---|---|
 | Start / Stop Capture | `Ctrl + Shift + 0` |
+
+## Timeline
+
+| Action | Default Shortcut |
+|---|---|
+| Fit Timeline to View | `F` |
