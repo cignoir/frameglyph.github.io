@@ -125,6 +125,44 @@ export default defineConfig({
         },
       },
     },
+    ko: {
+      label: '한국어',
+      lang: 'ko',
+      themeConfig: {
+        nav: [
+          { text: '홈', link: '/ko/' },
+          { text: '가이드', link: '/ko/guide/' },
+          { text: '지원', link: '/ko/support' },
+        ],
+        sidebar: {
+          '/ko/guide/': [
+            {
+              text: '시작하기',
+              items: [
+                { text: '소개', link: '/ko/guide/' },
+                { text: '설치', link: '/ko/guide/installation' },
+              ],
+            },
+            {
+              text: '기능',
+              items: [
+                { text: '비디오 재생', link: '/ko/guide/video-playback' },
+                { text: '주석', link: '/ko/guide/annotations' },
+                { text: '타임라인', link: '/ko/guide/timeline' },
+                { text: '내보내기', link: '/ko/guide/export' },
+                { text: '화면 캡처', link: '/ko/guide/screen-capture' },
+              ],
+            },
+            {
+              text: '참고 자료',
+              items: [
+                { text: '단축키 모음', link: '/ko/guide/shortcuts' },
+              ],
+            },
+          ],
+        },
+      },
+    },
   },
 
   themeConfig: {
