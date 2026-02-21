@@ -239,6 +239,44 @@ export default defineConfig({
         },
       },
     },
+    fr: {
+      label: 'Français',
+      lang: 'fr',
+      themeConfig: {
+        nav: [
+          { text: 'Accueil', link: '/fr/' },
+          { text: 'Guide', link: '/fr/guide/' },
+          { text: 'Support', link: '/fr/support' },
+        ],
+        sidebar: {
+          '/fr/guide/': [
+            {
+              text: 'Démarrage',
+              items: [
+                { text: 'Introduction', link: '/fr/guide/' },
+                { text: 'Installation', link: '/fr/guide/installation' },
+              ],
+            },
+            {
+              text: 'Fonctionnalités',
+              items: [
+                { text: 'Lecture vidéo', link: '/fr/guide/video-playback' },
+                { text: 'Annotations', link: '/fr/guide/annotations' },
+                { text: 'Chronologie', link: '/fr/guide/timeline' },
+                { text: 'Exportation', link: '/fr/guide/export' },
+                { text: "Capture d'écran", link: '/fr/guide/screen-capture' },
+              ],
+            },
+            {
+              text: 'Référence',
+              items: [
+                { text: 'Raccourcis Claviers', link: '/fr/guide/shortcuts' },
+              ],
+            },
+          ],
+        },
+      },
+    },
   },
 
   themeConfig: {
