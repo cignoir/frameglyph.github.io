@@ -87,6 +87,44 @@ export default defineConfig({
         },
       },
     },
+    'zh-Hans': {
+      label: '简体中文',
+      lang: 'zh-Hans',
+      themeConfig: {
+        nav: [
+          { text: '首页', link: '/zh-Hans/' },
+          { text: '指南', link: '/zh-Hans/guide/' },
+          { text: '支持', link: '/zh-Hans/support' },
+        ],
+        sidebar: {
+          '/zh-Hans/guide/': [
+            {
+              text: '入门',
+              items: [
+                { text: '简介', link: '/zh-Hans/guide/' },
+                { text: '安装', link: '/zh-Hans/guide/installation' },
+              ],
+            },
+            {
+              text: '功能',
+              items: [
+                { text: '视频播放', link: '/zh-Hans/guide/video-playback' },
+                { text: '批注', link: '/zh-Hans/guide/annotations' },
+                { text: '时间轴', link: '/zh-Hans/guide/timeline' },
+                { text: '导出', link: '/zh-Hans/guide/export' },
+                { text: '屏幕录像', link: '/zh-Hans/guide/screen-capture' },
+              ],
+            },
+            {
+              text: '参考',
+              items: [
+                { text: '快捷键', link: '/zh-Hans/guide/shortcuts' },
+              ],
+            },
+          ],
+        },
+      },
+    },
   },
 
   themeConfig: {
