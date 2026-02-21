@@ -163,6 +163,44 @@ export default defineConfig({
         },
       },
     },
+    es: {
+      label: 'Español',
+      lang: 'es',
+      themeConfig: {
+        nav: [
+          { text: 'Inicio', link: '/es/' },
+          { text: 'Guía', link: '/es/guide/' },
+          { text: 'Soporte', link: '/es/support' },
+        ],
+        sidebar: {
+          '/es/guide/': [
+            {
+              text: 'Primeros Pasos',
+              items: [
+                { text: 'Introducción', link: '/es/guide/' },
+                { text: 'Instalación', link: '/es/guide/installation' },
+              ],
+            },
+            {
+              text: 'Características',
+              items: [
+                { text: 'Reproducción de Video', link: '/es/guide/video-playback' },
+                { text: 'Anotaciones', link: '/es/guide/annotations' },
+                { text: 'Línea de Tiempo', link: '/es/guide/timeline' },
+                { text: 'Exportación', link: '/es/guide/export' },
+                { text: 'Captura de Pantalla', link: '/es/guide/screen-capture' },
+              ],
+            },
+            {
+              text: 'Referencia',
+              items: [
+                { text: 'Atajos de Teclado', link: '/es/guide/shortcuts' },
+              ],
+            },
+          ],
+        },
+      },
+    },
   },
 
   themeConfig: {
