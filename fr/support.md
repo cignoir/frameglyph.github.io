@@ -20,7 +20,7 @@ Vous pouvez réviser et annoter des vidéos sans FFmpeg, mais les fonctionnalit�
 
 Si vous rencontrez un bogue ou si vous avez une suggestion de fonctionnalité, n'hésitez pas à nous contacter :
 
-- **Communauté Steam** : Visitez le [hub de la communauté Steam Frameglyph](#) pour participer aux discussions.
+- **Communauté Steam** : Visitez le [hub de la communauté Steam Frameglyph](https://steamcommunity.com/app/4442350/) pour participer aux discussions.
 - **E-mail** : [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## Politique de Confidentialité

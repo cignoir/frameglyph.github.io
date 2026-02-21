@@ -20,7 +20,7 @@ Puedes revisar y anotar videos sin FFmpeg, pero las funciones de exportación lo
 
 Si encuentras un error o tienes una sugerencia sobre nuevas funciones, ponte en contacto:
 
-- **Comunidad de Steam**: Visita el [Centro de la Comunidad de Steam de Frameglyph](#) para discusiones.
+- **Comunidad de Steam**: Visita el [Centro de la Comunidad de Steam de Frameglyph](https://steamcommunity.com/app/4442350/) para discusiones.
 - **Correo electrónico**: [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## Política de Privacidad

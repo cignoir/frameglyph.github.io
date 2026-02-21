@@ -20,7 +20,7 @@ FFmpeg 없이도 비디오를 리뷰하고 주석을 달 수 있지만, 내보�
 
 버그가 발생하거나 기능 요청 사항이 있는 경우 아래로 연락해 주세요.
 
-- **Steam 커뮤니티**: 토론을 원하시면 [Frameglyph Steam 커뮤니티 허브](#)를 방문해 주세요.
+- **Steam 커뮤니티**: 토론을 원하시면 [Frameglyph Steam 커뮤니티 허브](https://steamcommunity.com/app/4442350/)를 방문해 주세요.
 - **이메일**: [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## 개인정보 처리방침

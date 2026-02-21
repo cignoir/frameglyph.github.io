@@ -20,7 +20,7 @@ Frameglyph 可以在 Windows 系统上运行。视频导出功能需要依赖 FF
 
 如果您遇到了错误或有功能需求的建议，请联系我们：
 
-- **Steam 社区**：访问 [Frameglyph Steam 社区中心](#) 参与讨论。
+- **Steam 社区**：访问 [Frameglyph Steam 社区中心](https://steamcommunity.com/app/4442350/) 参与讨论。
 - **电子邮件**：[cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## 隐私政策

@@ -20,7 +20,7 @@ Sie können Videos ohne FFmpeg überprüfen und mit Annotationen versehen, aber 
 
 Wenn Sie einen Fehler finden oder einen Funktionsvorschlag haben, wenden Sie sich bitte an uns:
 
-- **Steam Community**: Besuchen Sie den [Frameglyph Steam Community Hub](#) für Diskussionen.
+- **Steam Community**: Besuchen Sie den [Frameglyph Steam Community Hub](https://steamcommunity.com/app/4442350/) für Diskussionen.
 - **E-Mail**: [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## Datenschutzrichtlinie

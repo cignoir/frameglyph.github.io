@@ -20,7 +20,7 @@ You can review and annotate videos without FFmpeg, but export features require i
 
 If you encounter a bug or have a feature request, please reach out:
 
-- **Steam Community**: Visit the [Frameglyph Steam Community Hub](#) for discussions.
+- **Steam Community**: Visit the [Frameglyph Steam Community Hub](https://steamcommunity.com/app/4442350/) for discussions.
 - **Email**: [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## Privacy Policy

@@ -20,7 +20,7 @@ Você pode revisar e fazer anotações em vídeos sem o FFmpeg, mas os recursos 
 
 Se você encontrar um bug ou tiver uma sugestão de recurso, entre em contato conosco:
 
-- **Comunidade Steam**: Visite a [Central da Comunidade Steam do Frameglyph](#) para discussões.
+- **Comunidade Steam**: Visite a [Central da Comunidade Steam do Frameglyph](https://steamcommunity.com/app/4442350/) para discussões.
 - **E-mail**: [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## Política de Privacidade

@@ -20,7 +20,7 @@ FrameglyphはWindows上で動作します。動画エクスポート機能には
 
 バグ報告や機能リクエストは、以下の方法でご連絡ください:
 
-- **Steamコミュニティ**: [Frameglyph Steamコミュニティハブ](#)でディスカッションに参加できます。
+- **Steamコミュニティ**: [Frameglyph Steamコミュニティハブ](https://steamcommunity.com/app/4442350/)でディスカッションに参加できます。
 - **メール**: [cignoir.dev@gmail.com](mailto:cignoir.dev@gmail.com)
 
 ## プライバシーポリシー
