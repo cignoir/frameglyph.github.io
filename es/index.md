@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Ver en Steam
-      link: '#'
+      link: 'https://store.steampowered.com/app/4442350/Frameglyph/'
     - theme: alt
       text: Leer la Guía
       link: /es/guide/

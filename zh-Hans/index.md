@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 在 Steam 上查看
-      link: '#'
+      link: 'https://store.steampowered.com/app/4442350/Frameglyph/'
     - theme: alt
       text: 阅读使用指南
       link: /zh-Hans/guide/

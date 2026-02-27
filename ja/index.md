@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Steamで見る
-      link: '#'
+      link: 'https://store.steampowered.com/app/4442350/Frameglyph/'
     - theme: alt
       text: ガイドを読む
       link: /guide/

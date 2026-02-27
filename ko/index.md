@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Steam에서 보기
-      link: '#'
+      link: 'https://store.steampowered.com/app/4442350/Frameglyph/'
     - theme: alt
       text: 가이드 읽기
       link: /ko/guide/
